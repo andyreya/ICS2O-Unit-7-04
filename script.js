@@ -1,9 +1,12 @@
 //makes the function occur when the button is clicked
+
 document.getElementById('button').addEventListener('click', check)
 //creates variables
+
 let age = 0
 let date = 'Saturday'
-//creates a function that will
+//creates a function that will create a condition that has to be met and display messages accordingly
+
 function check () {
   age = document.getElementById('input1').value
   age = parseInt(age)
