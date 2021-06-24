@@ -1,11 +1,11 @@
-//makes the function occur when the button is clicked
+// makes the function occur when the button is clicked
 
 document.getElementById('button').addEventListener('click', check)
-//creates variables
+// creates variables
 
 let age = 0
 let date = 'Saturday'
-//creates a function that will create a condition that has to be met and display messages accordingly
+// creates a function that will create a condition that has to be met and display messages accordingly
 
 function check () {
   age = document.getElementById('input1').value
