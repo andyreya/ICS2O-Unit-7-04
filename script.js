@@ -13,7 +13,7 @@ function check () {
 
   date = document.getElementById('input2').value
 
-  if ((date === 'Wednesday' || date === 'Friday') || (age > 12 && age < 21)) {
+  if ((date === 'Wednesday' || date === 'Friday') && (age > 12 && age < 21)) {
     document.getElementById('answer').innerHTML = 'You get student pricing.'
   } else {
     document.getElementById('answer').innerHTML = 'You have to pay regular pricing.'
